@@ -10,10 +10,18 @@ const Home = () => {
 			<Navbar/>
 			<Jumbotron/>
 			<div className="row justify-content-center">
-				<Card/>
-				<Card/>
-				<Card/>
-				<Card/>
+				<Card
+				titulo={"Primera carta"}
+				/>
+				<Card
+				titulo={"Segunda carta"}
+				/>
+				<Card
+				titulo={"tercera carta"}
+				/>
+				<Card
+				titulo={"Cuarta carta"}
+				/>
 			</div>
 			<Footer/>
 		</div>
